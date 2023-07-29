@@ -2,7 +2,7 @@
 
 This repo provides the Chinese dataset of FinNLP@IJCNLP-AACL-2023 ML-ESG-2 shared task.
 
-Also, we provides the web crawler for ESG news content from Business Today. （https://esg.businesstoday.com.tw/catalog/180686/）.
+Also, we provide the web crawler for ESG news content from Business Today. （https://esg.businesstoday.com.tw/catalog/180686/）.
 
 
 ## Environment Requirements
