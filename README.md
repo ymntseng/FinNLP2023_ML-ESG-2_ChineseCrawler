@@ -2,7 +2,7 @@
 
 This repo provides the Chinese dataset of FinNLP@IJCNLP-AACL-2023 ML-ESG-2 shared task.
 
-Also, we provides the web crawler for ESG news content from Business Today. （https://esg.businesstoday.com.tw/catalog/180686/）.
+Also, we provide the web crawler for ESG news content from Business Today. （https://esg.businesstoday.com.tw/catalog/180686/）.
 
 
 ## Environment Requirements
@@ -31,7 +31,7 @@ The label of this Multi-Lingual ESG Impact Type Identification shared task（Chi
 pip install -r requirements.txt
 ```
 
-- Then, you can crawl the news content with HTML tags and the clean news content of all urls in the training set by giving the argument `-a dataset=Train`, `-a dataset=Dev` or `-a dataset=Test`.
+- Then, you can crawl the news content with HTML tags and the clean news content of all urls in the training set by giving the argument `-a dataset=Train` or `-a dataset=Dev`.
 
 
 - Finally, you can easily output the result into json or csv files as follows. The output will have two new columns along with the four columns of training set, so the output data shape will be（# of news, 6）. 
