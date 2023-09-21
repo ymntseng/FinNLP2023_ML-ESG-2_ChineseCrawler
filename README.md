@@ -31,7 +31,7 @@ The label of this Multi-Lingual ESG Impact Type Identification shared task（Chi
 pip install -r requirements.txt
 ```
 
-- Then, you can crawl the news content with HTML tags and the clean news content of all urls in the training set by giving the argument `-a dataset=Train` or `-a dataset=Dev`.
+- Then, you can crawl the news content with HTML tags and the clean news content of all urls in the training set by giving the argument `-a dataset=Train`, `-a dataset=Dev` or `-a dataset=Test`.
 
 
 - Finally, you can easily output the result into json or csv files as follows. The output will have two new columns along with the four columns of training set, so the output data shape will be（# of news, 6）. 
