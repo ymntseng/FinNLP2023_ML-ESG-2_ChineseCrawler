@@ -14,7 +14,7 @@ Also, we provide the web crawler for ESG news content from Business Today. （ht
 - Bs4 0.0.1
 
 ## Dataset
-There are 1260 instances in train set, 140 instances in dev set, and 156 instances in test set. Note that we've only released train/dev set. Test set will be released later.
+There are 1260 instances in train set, 140 instances in dev set, and 156 instances in test set. Note that we've already released train, dev and test set.
 
 The label of this Multi-Lingual ESG Impact Type Identification shared task（Chinese ver.） is described as follows.
 - 0 : *Opportunity (related to company)*
